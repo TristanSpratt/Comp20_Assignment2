@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+	<title>
+		Tristan's Jumbo Tours
+	</title>
+
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+
+	<style type="text/css">
+
+		h3 {
+			text-align: center;
+			color: #000;
+			padding: 20px;
+		}
+
+		input {
+			margin: 20px;
+		}
+
+		#FormLayout {
+			border-style: solid;
+			text-align: center;
+			border-color: #000;
+			border-width: 2px;
+		}
+
+		.FormEntry {
+			display: inline-block;
+			padding: 20px 80px;
+		}
+
+	</style>
+
+</head>
+<body>
+
+	<div id="NavBar">
+
+		<div class="Aligned">
+			<a href="index.html"><img src="Logo.jpg" height="50px"></a>
+		</div>
+
+		<div class="NavButton" style="display: inline-block; float: right">
+			<a href="Booking.html"> Book </a>
+		</div>
+
+		<div class="NavButton" style="display: inline-block; float: right">
+			<a href="TourGuides.html"> Tour Guides </a>
+		</div>
+
+		<div class="NavButton" style="display: inline-block; float: right">
+			<a href="index.html"> Home </a>
+		</div>
+
+	</div>
+
+
+
+
+
+	<div class="PageHeader" style="background-image: url(Miller.jpg)">
+
+		<h1 class="PageTitle">
+			Book your Tour Today
+		</h1>
+
+		<h2 class="PageTitle">
+			Fill out the form below to book your tour!
+		</h2>
+
+	</div>
+
+
+	<div class="Container">
+		<div id="FormLayout">
+
+			<h3>
+				Tour Booking Form
+			</h3>
+
+			<form>
+
+
+				<div>
+					<div class="FormEntry">
+						<label>
+							First Name:
+						</label>
+						<input type="text" name="firstName">
+					</div>
+
+					<div class="FormEntry">
+						<label>
+							Last Name:
+						</label>
+						<input type="text" name="lastName">
+					</div>
+				</div>
+
+
+
+
+				<div>
+					<div class="FormEntry">
+						<label>
+							email address:
+						</label>
+						<input type="email" name="email">
+					</div>
+
+					<div class="FormEntry">
+						<label>
+							Phone number:
+						</label>
+						<input type="text" name="phoneNumber">
+					</div>
+				</div>
+
+
+
+
+
+
+				<div>
+					<div class="FormEntry">
+						<label>
+							Number of people in your group:
+						</label>
+						<input type="number" name="groupSize">
+					</div>
+
+					<div class="FormEntry">
+						<label> Is anyone in your group a Tufts applicant? </label>
+						<select name="TuftsApplicant">
+							<option value="yes"> yes </option>
+							<option value="no"> no </option>
+						</select>
+					</div>
+				</div>
+
+
+
+
+
+				<div>
+					<div class="FormEntry">
+						<label> Please choose which date you would like to book a tour: </label>
+						<input type="date" name="TourDate">
+					</div>
+				</div>
+
+				<div>
+					<div class="FormEntry">
+						<label> Anything else we should know? </label>
+						<textarea> </textarea>
+					</div>
+				</div>
+
+				<br>
+
+				<input type="submit" name="submit" value="Book my Tour!">
+
+			</form>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
